@@ -24,8 +24,8 @@ const More = () => {
                     <View style={styles.modal}>
                         <Text style={styles.modalTitle}>내 채팅 삭제</Text>
                         <View style={[styles.centeredContainer, {flex:1}]}>
-                            <Text>※ 주의 ※</Text>
-                            <Text style={{fontSize: 12, textAlign: 'center'}}>사용자 채팅 기록은 서버에 저장되어 있지 않으며, 삭제 시 복구할 수 없습니다.
+                            <Text style={{fontSize: 13}}>※ 주의 ※</Text>
+                            <Text style={{fontSize: 13, textAlign: 'center'}}>사용자 채팅 기록은 서버에 저장되어 있지 않으며, 삭제 시 복구할 수 없습니다.
                             </Text>
                             <View style={{flex:1}}/>
                             <Text>
@@ -58,8 +58,7 @@ const More = () => {
                 
                 <TouchableOpacity 
                     onPress={()=>{setDelVisible(!delVisible);}}
-                    style={{backgroundColor: 'white', height: 65, justifyContent: 'center', 
-                    padding: 10, marginBottom:10, borderRadius: 10}}
+                    style={styles.moreItem}
                 >
                     <Text style={{fontSize: 16}}>
                         내 채팅 삭제
@@ -67,8 +66,7 @@ const More = () => {
                 </TouchableOpacity>
                 <TouchableOpacity
                     onPress={()=>{openURL('mailto: dlrauddmlejrgn@gmail.com')}}
-                    style={{backgroundColor: 'white', height: 65, justifyContent: 'center', 
-                    padding: 10, marginBottom:10, borderRadius: 10}}
+                    style={styles.moreItem}
                 >
                     <Text style={{fontSize: 16}}>
                         오류 제보 및 기타 문의

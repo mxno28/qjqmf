@@ -108,7 +108,8 @@ const styles = StyleSheet.create({
         fontWeight:'bold', 
         color: 'gray', 
         fontSize: 15,
-        margin: 10
+        margin: 10,
+        marginBottom: 5
     },
     fileSelectButton: {
         textAlign: 'center',
@@ -182,6 +183,14 @@ const styles = StyleSheet.create({
         bottom:0, 
         alignItems:'center', 
         width: '100%'
+    },
+    moreItem: {
+        backgroundColor: 'white', 
+        height: 65, 
+        justifyContent: 'center', 
+        padding: 10, 
+        marginBottom:10, 
+        borderRadius: 10
     }
 });
 
