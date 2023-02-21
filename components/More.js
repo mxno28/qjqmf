@@ -1,6 +1,9 @@
 import { Text, View, Modal, ScrollView, TouchableOpacity } from 'react-native';
 import { useState, useEffect } from 'react';
 
+import { openURL } from 'expo-linking';
+
+
 import styles from './styles';
 import removeData from './removeData';
 
@@ -22,6 +25,8 @@ const More = () => {
                         <Text style={styles.modalTitle}>내 채팅 삭제</Text>
                         <View style={[styles.centeredContainer, {flex:1}]}>
                             <Text>사용자 채팅 기록은 서버에 저장되어 있지 않으며, 삭제 시 복구할 수 없습니다.
+                            </Text>
+                            <Text>
                                 전부 삭제하시겠습니까?
                             </Text>
                         </View>
@@ -45,19 +50,26 @@ const More = () => {
                     </View>
                 </View>
             </Modal>
-            <ScrollView>
+            <ScrollView
+                style={{padding: 20}}
+            >
                 
-                <TouchableOpacity onPress={()=>{setDelVisible(!delVisible);}}>
-                    <Text>
+                <TouchableOpacity 
+                    onPress={()=>{setDelVisible(!delVisible);}}
+                    style={{backgroundColor: 'white', height: 55}}
+                >
+                    <Text style={styles.boldName}>
                         내 채팅 삭제
                     </Text>
                 </TouchableOpacity>
-                <View>
-                    <Text>
+                <TouchableOpacity
+                    onPress={()=>{openURL('mailto: dlrauddmlejrgn@gmail.com')}}
+                    style={{backgroundColor: 'white', height: 55}}
+                >
+                    <Text style={styles.boldName}>
                         오류 제보 및 기타 문의
-                        dlrauddmlejrgn@gmail.com
                     </Text>
-                </View>
+                </TouchableOpacity>
             </ScrollView>
         </View>
     )
