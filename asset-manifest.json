@@ -1,22 +1,22 @@
 {
   "files": {
-    "app.js": "/qjqmf/static/js/app.baf82cbb.chunk.js",
-    "app.js.map": "/qjqmf/static/js/app.baf82cbb.chunk.js.map",
+    "app.js": "/qjqmf/static/js/app.8be1cbe2.chunk.js",
+    "app.js.map": "/qjqmf/static/js/app.8be1cbe2.chunk.js.map",
     "runtime~app.js": "/qjqmf/static/js/runtime~app.e2ac4276.js",
     "runtime~app.js.map": "/qjqmf/static/js/runtime~app.e2ac4276.js.map",
-    "static/js/2.3f6825e5.chunk.js": "/qjqmf/static/js/2.3f6825e5.chunk.js",
-    "static/js/2.3f6825e5.chunk.js.map": "/qjqmf/static/js/2.3f6825e5.chunk.js.map",
+    "static/js/2.35a2e424.chunk.js": "/qjqmf/static/js/2.35a2e424.chunk.js",
+    "static/js/2.35a2e424.chunk.js.map": "/qjqmf/static/js/2.35a2e424.chunk.js.map",
     "favicon-16.png": "/qjqmf/favicon-16.png",
     "favicon-32.png": "/qjqmf/favicon-32.png",
     "favicon.ico": "/qjqmf/favicon.ico",
     "index.html": "/qjqmf/index.html",
     "manifest.json": "/qjqmf/manifest.json",
     "serve.json": "/qjqmf/serve.json",
-    "static/js/2.3f6825e5.chunk.js.LICENSE.txt": "/qjqmf/static/js/2.3f6825e5.chunk.js.LICENSE.txt"
+    "static/js/2.35a2e424.chunk.js.LICENSE.txt": "/qjqmf/static/js/2.35a2e424.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime~app.e2ac4276.js",
-    "static/js/2.3f6825e5.chunk.js",
-    "static/js/app.baf82cbb.chunk.js"
+    "static/js/2.35a2e424.chunk.js",
+    "static/js/app.8be1cbe2.chunk.js"
   ]
 }
