@@ -226,22 +226,8 @@ const MyChats = ({ navigation, route }) =>{
                 data={data}
                 renderItem={renderItem}
                 contentContainerStyle={styles.contentContainer}
-                ListEmptyComponent={ <Text>우측 상단 + 버튼을 눌러 채팅을 추가해주세요.</Text> }
-            />
-            <View style={styles.centeredContainer}>
-                <TouchableOpacity style={[styles.addButton, styles.centeredContainer]}
-                    onPress={() => {
-                        setModalVisible(!modalVisible);
-                    }}
-                >
-                    <Text style={styles.buttonText}>+</Text>
-                </TouchableOpacity>
-                <TouchableOpacity style={[styles.addButton, styles.centeredContainer]}
-                    onPress={()=>{removeData('myChats');}}>
-                    <Text style={styles.buttonText}>-</Text>
-                </TouchableOpacity>
-            </View>
-            
+                ListEmptyComponent={ <Text style={{color: '#333333', fontSize: 14}}>우측 상단 + 버튼을 눌러 채팅을 추가해주세요.</Text> }
+            />            
         </View>
     );
 }

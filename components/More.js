@@ -25,8 +25,9 @@ const More = () => {
                         <Text style={styles.modalTitle}>내 채팅 삭제</Text>
                         <View style={[styles.centeredContainer, {flex:1}]}>
                             <Text>※ 주의 ※</Text>
-                            <Text style={{fontSize: 11}}>사용자 채팅 기록은 서버에 저장되어 있지 않으며, 삭제 시 복구할 수 없습니다.
+                            <Text style={{fontSize: 12, textAlign: 'center'}}>사용자 채팅 기록은 서버에 저장되어 있지 않으며, 삭제 시 복구할 수 없습니다.
                             </Text>
+                            <View style={{flex:1}}/>
                             <Text>
                                 전부 삭제하시겠습니까?
                             </Text>
