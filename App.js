@@ -13,7 +13,8 @@ const MainTabs = ({ navigation, route }) =>(
     screenOptions={{ 
       tabBarLabelPosition: "beside-icon",
       tabBarIconStyle: { display: "none" } ,
-      tabBarActiveTintColor: "#e54132"
+      tabBarActiveTintColor: "#e54132",
+      tabBarLabelStyle: { margin: 0}
     }}>
     <Tab.Screen name='Archive' 
       getComponent={() => require('./components/Archive').default}
