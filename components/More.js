@@ -56,19 +56,19 @@ const More = () => {
                 
                 <TouchableOpacity 
                     onPress={()=>{setDelVisible(!delVisible);}}
-                    style={{backgroundColor: 'white', height: 55, alignItems: 'center', 
+                    style={{backgroundColor: 'white', height: 60, justifyContent: 'center', 
                     padding: 10, marginBottom:10, borderRadius: 10}}
                 >
-                    <Text style={styles.boldName}>
+                    <Text style={{fontSize: 16}}>
                         내 채팅 삭제
                     </Text>
                 </TouchableOpacity>
                 <TouchableOpacity
                     onPress={()=>{openURL('mailto: dlrauddmlejrgn@gmail.com')}}
-                    style={{backgroundColor: 'white', height: 55, alignItems: 'center', 
+                    style={{backgroundColor: 'white', height: 60, justifyContent: 'center', 
                     padding: 10, marginBottom:10, borderRadius: 10}}
                 >
-                    <Text style={styles.boldName}>
+                    <Text style={{fontSize: 16}}>
                         오류 제보 및 기타 문의
                     </Text>
                 </TouchableOpacity>
