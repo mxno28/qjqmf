@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react';
 import * as DocumentPicker from 'expo-document-picker';
 
 import styles from './styles';
-//import AddChat from './AddChat';
 import getData from './getData';
 import storeData from './storeData';
 import dateSort from './dateSort';

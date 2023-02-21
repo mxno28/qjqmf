@@ -23,6 +23,9 @@ const MainTabs = ({ navigation, route }) =>(
       getComponent={() => require('./components/MyChats').default}
       initialParams={{ Artists: Artists }}
       />
+    <Tab.Screen name='More' 
+      getComponent={() => require('./components/More').default}
+      />
   </Tab.Navigator>
 )
 
