@@ -1,0 +1,95 @@
+{
+    "JYH": {
+        "code": "JYH",
+        "name": "Yong Hwa",
+        "profile": "https://raw.githubusercontent.com/dlrauddmlejrgn/BBMedia/main/profile/JYH_Profile.jpg",
+        "profileDownload": "https://drive.google.com/file/d/1IVZKCEzfr0MtUIibcn3dEAntJnDyLubH/view",
+        "background": "https://raw.githubusercontent.com/dlrauddmlejrgn/BBMedia/main/profile/JYH_Profile_Background.jpg",
+        "backgroundDownload": "https://drive.google.com/file/d/1ntWDGWs2hQlnX93sy2ulwPDEALvWnY7K/view",
+        "status": "JUNG YONG HWA 입니다🤙🏿🤙🏿",
+        "hasMediaMeta": true
+    },
+    "KMH": {
+        "code": "KMH",
+        "name": "강민혁",
+        "profile": "https://raw.githubusercontent.com/dlrauddmlejrgn/BBMedia/main/profile/KMH_Profile.jpg",
+        "profileDownload": "https://drive.google.com/file/d/191WKrnSSckIH7uzamsMf5_18V-Oq7fnn/view",
+        "background": "https://raw.githubusercontent.com/dlrauddmlejrgn/BBMedia/main/profile/KMH_Profile_Background.jpg",
+        "backgroundDownload": "https://drive.google.com/file/d/1mHLAIPDHoV1JKsEdoNY0MV9zwV_Kj410/view",
+        "status": "CNBLUE",
+        "hasMediaMeta": true
+    },
+    "LJS": {
+        "code": "LJS",
+        "name": "정신오빠",
+        "profile": "https://raw.githubusercontent.com/dlrauddmlejrgn/BBMedia/main/profile/LJS_Profile.jpg",
+        "profileDownload": "https://drive.google.com/file/d/1b0PBOVCRxZRqHkx0wIKhHofRDWRL2bYy/view",
+        "background": "",
+        "backgroundDownload": "",
+        "status": "안녕?",
+        "hasMediaMeta": true
+    },
+
+    "LSH": {
+        "code": "LSH",
+        "name": "혀비",
+        "profile": "https://raw.githubusercontent.com/dlrauddmlejrgn/BBMedia/main/profile/LSH_Profile.jpg",
+        "profileDownload": "https://drive.google.com/file/d/1BKmvYCIhd2LJV8FHt1ZQ1hB8b93_fNsA/view",
+        "background": "",
+        "backgroundDownload": "",
+        "status": "੯‧̀͡u\\",
+        "hasMediaMeta": true
+    },
+    "CH": {
+        "code": "CH",
+        "name": "고먐미😸",
+        "profile": "https://raw.githubusercontent.com/dlrauddmlejrgn/BBMedia/main/profile/CH_Profile.jpg",
+        "profileDownload": "https://drive.google.com/file/d/1HMG3C_5_UkWQFNYU6nO28SU9a59X_bym/view",
+        "background": "",
+        "backgroundDownload": "",
+        "status": "어딜 보시는거죠? 그건 제 잔상입니다만?😼",
+        "hasMediaMeta": true
+    },
+    "KJH": {
+        "code": "KJH",
+        "name": "김재똘",
+        "profile": "https://raw.githubusercontent.com/dlrauddmlejrgn/BBMedia/main/profile/KJH_Profile.jpg",
+        "profileDownload": "https://drive.google.com/file/d/1-i0qXJXHG0b-l07w0SGTea_c_f-6WsY8/view",
+        "background": "",
+        "backgroundDownload": "",
+        "status": "자아아알부탁드립니다 vㅇㅅㅇv",
+        "hasMediaMeta": true
+    },
+    "YHS": {
+        "code": "YHS",
+        "name": "유말랑",
+        "profile": "https://raw.githubusercontent.com/dlrauddmlejrgn/BBMedia/main/profile/YHS_Profile.jpg",
+        "profileDownload": "https://drive.google.com/file/d/14Cl9SjI-2oPe65cUI2JUwOm5IPKW91yV/view",
+        "background": "",
+        "backgroundDownload": "",
+        "status": "2022년 왜 벌써 한달남았죠?",
+        "hasMediaMeta": true
+    },
+    "SDS": {
+        "code": "SDS",
+        "name": "서동성 🥳",
+        "profile": "https://raw.githubusercontent.com/dlrauddmlejrgn/BBMedia/main/profile/SDS_Profile.jpg",
+        "profileDownload": "https://drive.google.com/file/d/1ftHti_pCiN3eQwDdYOjm4XUx6dWRD4a-/view",
+        "background": "",
+        "backgroundDownload": "",
+        "status": "메리크리스마스🎁",
+        "hasMediaMeta": true
+    },
+
+    "SH": {
+        "code": "SH",
+        "name": "이여름 그잡채",
+        "profile": "https://raw.githubusercontent.com/dlrauddmlejrgn/BBMedia/main/profile/SH_Profile.jpg",
+        "profileDownload": "https://drive.google.com/file/d/1UP6q4wNX1jaLWDZz-Q0KD-fASaJ5ujmc/view?usp=sharing",
+        "background": "https://raw.githubusercontent.com/dlrauddmlejrgn/BBMedia/main/profile/SH_Profile_Background.jpg",
+        "backgroundDownload": "https://drive.google.com/file/d/1KX6JIJYu5l9hZxzsvqs0oGinwn1Ug_jR/view?usp=sharing",
+        "status": "@s2seolhyuns2",
+        "hasMediaMeta": false
+    }
+
+}
