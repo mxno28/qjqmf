@@ -195,8 +195,7 @@ const styles = StyleSheet.create({
     textinput: {
         borderBottomWidth:1,
         padding: 5, 
-        margin: 10,
-        lineHeight: 18
+        lineHeight: 20
     }
 });
 

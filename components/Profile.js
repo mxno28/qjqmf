@@ -28,7 +28,7 @@ const Profile = ({ navigation, route }) => {
                         <TextInput 
                             onChangeText={text=>{userName = text;}} 
                             placeholder={'닉네임 입력'}
-                            style={[styles.textinput, {width:'100%'}]}
+                            style={[styles.textinput, {width:200}]}
                         />
                     </View>
                     <View style={{flexDirection:'row'}}>
