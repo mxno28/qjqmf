@@ -47,7 +47,7 @@ const getArtistCode = (name) => {
             return ('SH');
 
         //SF9
-        case '❤':
+        case '❤️':
             console.log('Artist: 이재윤');
             return ('LJY');
 
