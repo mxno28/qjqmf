@@ -186,11 +186,17 @@ const styles = StyleSheet.create({
     },
     moreItem: {
         backgroundColor: 'white', 
-        height: 65, 
+        minHeight: 65, 
         justifyContent: 'center', 
         padding: 10, 
         marginBottom:10, 
         borderRadius: 10
+    },
+    textinput: {
+        borderColor:'lightgray', 
+        borderBottomWidth:1,
+        padding: 3, 
+        margin: 10
     }
 });
 

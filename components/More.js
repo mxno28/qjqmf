@@ -25,7 +25,7 @@ const More = () => {
                         <Text style={styles.modalTitle}>내 채팅 삭제</Text>
                         <View style={[styles.centeredContainer, {flex:1}]}>
                             <Text style={{fontSize: 13}}>※ 주의 ※</Text>
-                            <Text style={{fontSize: 13, textAlign: 'center'}}>사용자 채팅 기록은 서버에 저장되어 있지 않으며, 삭제 시 복구할 수 없습니다.
+                            <Text style={{fontSize: 13, textAlign: 'center', paddingHorizontal: 10}}>사용자 채팅 기록은 서버에 저장되어 있지 않으며, 삭제 시 복구할 수 없습니다.
                             </Text>
                             <View style={{flex:1}}/>
                             <Text>
@@ -72,6 +72,12 @@ const More = () => {
                         오류 제보 및 기타 문의
                     </Text>
                 </TouchableOpacity>
+                <View>
+                    <Text>개발: 두둥, 하루</Text>
+                    <Text>자문: 엔야</Text>
+                    <Text>데이터 제공: 나나, 낙찌, 양갱수갱, 율, 쭒둥이, 태단, 호연</Text>
+                    <Text>도움: 비화, 승귄, 양갱수갱, 오뜨, 율, 치쥬, 햅</Text>
+                </View>
             </ScrollView>
         </View>
     )
