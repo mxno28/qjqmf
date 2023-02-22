@@ -11,7 +11,7 @@ const More = () => {
     const [delVisible, setDelVisible] = useState(false);
 
     return (
-        <View>
+        <View style={{flex:1}}>
             <Modal
                 transparent={true}                
                 animationType="fade"
@@ -53,7 +53,7 @@ const More = () => {
                 </View>
             </Modal>
             <View
-                style={{padding: 20}}
+                style={{padding: 20, flex:1}}
             >
                 
                 <TouchableOpacity 
@@ -72,7 +72,6 @@ const More = () => {
                         오류 제보 및 기타 문의
                     </Text>
                 </TouchableOpacity>
-                <View style={{flex:1}}/>
             </View>
             <View style={{padding: 20}}>
                 <Text style={styles.credit}>Copyright ⓒ 두둥!!, 하루</Text>
