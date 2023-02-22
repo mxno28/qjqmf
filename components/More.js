@@ -53,7 +53,7 @@ const More = () => {
                 </View>
             </Modal>
             <ScrollView
-                style={{padding: 20, flex:1}}
+                style={{padding: 20}}
             >
                 
                 <TouchableOpacity 
@@ -73,7 +73,8 @@ const More = () => {
                     </Text>
                 </TouchableOpacity>
             </ScrollView>
-            <View>
+            <View style={{flex:1}}/>
+            <View style={{padding: 20}}>
                 <Text style={styles.credit}>Copyright ⓒ 두둥, 하루</Text>
                 <Text style={styles.credit}>Thanks to.</Text>
                 <Text style={styles.credit}>자문: 엔야</Text>
