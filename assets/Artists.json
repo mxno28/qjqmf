@@ -90,6 +90,17 @@
         "backgroundDownload": "https://drive.google.com/file/d/1KX6JIJYu5l9hZxzsvqs0oGinwn1Ug_jR/view?usp=sharing",
         "status": "@s2seolhyuns2",
         "hasMediaMeta": false
+    },
+
+    "YTY": {
+        "code": "YTY",
+        "name": "니꼬",
+        "profile": "https://raw.githubusercontent.com/dlrauddmlejrgn/BBMedia/main/profile/YTY_Profile.jpg",
+        "profileDownload": "https://drive.google.com/file/d/1ZSuIWR3U-y6KESFYBydCBU-ar4jB5sz2/view?usp=sharing",
+        "background": "https://raw.githubusercontent.com/dlrauddmlejrgn/BBMedia/main/profile/YTY_Profile_Background.jpg",
+        "backgroundDownload": "https://drive.google.com/file/d/1XGX5NkmAg9J_u4K7er1tyrKPuuyApc6J/view?usp=sharing",
+        "status": "안농요",
+        "hasMediaMeta": false
     }
 
 }
