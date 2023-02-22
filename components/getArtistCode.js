@@ -47,10 +47,14 @@ const getArtistCode = (name) => {
             return ('SH');
 
         //SF9
+        case '❤':
+            console.log('Artist: 이재윤');
+            return ('LJY');
+
         case '니꼬':
             console.log('Artist: 유태양');
             return ('YTY');
-
+    
         default: return undefined;
     }
 };
