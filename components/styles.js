@@ -193,10 +193,10 @@ const styles = StyleSheet.create({
         borderRadius: 10
     },
     textinput: {
-        borderColor:'lightgray', 
         borderBottomWidth:1,
-        padding: 3, 
-        margin: 10
+        padding: 5, 
+        margin: 10,
+        lineHeight: 18
     }
 });
 
