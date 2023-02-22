@@ -53,7 +53,7 @@ const More = () => {
                 </View>
             </Modal>
             <View
-                style={{padding: 20, flex:1}}
+                style={{padding: 20}}
             >
                 
                 <TouchableOpacity 
@@ -72,9 +72,10 @@ const More = () => {
                         오류 제보 및 기타 문의
                     </Text>
                 </TouchableOpacity>
+                <View style={{flex:1}}/>
             </View>
-            <View>
-                <Text style={styles.credit}>Copyright ⓒ 두둥, 하루</Text>
+            <View style={{padding: 20}}>
+                <Text style={styles.credit}>Copyright ⓒ 두둥!!, 하루</Text>
                 <Text style={styles.credit}>Thanks to.</Text>
                 <Text style={styles.credit}>자문: 엔야</Text>
                 <Text style={styles.credit}>데이터 제공: 나나, 낙찌, 양갱수갱, 율, 쭒둥이, 태단, 호연</Text>
