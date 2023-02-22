@@ -74,11 +74,11 @@ const More = () => {
                 </TouchableOpacity>
             </View>
             <View style={{padding: 20}}>
-                <Text style={styles.credit}>Copyright ⓒ 두둥!!, 하루</Text>
+                <Text style={styles.credit}>Copyright ⓒ 2023 두둥!!, 하루</Text>
                 <Text style={styles.credit}>Thanks to.</Text>
                 <Text style={styles.credit}>자문: 엔야</Text>
                 <Text style={styles.credit}>데이터 제공: 나나, 낙찌, 양갱수갱, 율, 쭒둥이, 태단, 호연</Text>
-                <Text style={styles.credit}>도움: 비화, 승귄, 양갱수갱, 오뜨, 율, 치쥬, 햅</Text>
+                <Text style={styles.credit}>도움: 뜨거운 알토란, 비화, 승귄, 양갱수갱, 오뜨, 율, 치쥬, 햅</Text>
             </View>
         </View>
     )
