@@ -53,7 +53,7 @@ const More = () => {
                 </View>
             </Modal>
             <ScrollView
-                style={{padding: 20}}
+                style={{padding: 20, flex:1}}
             >
                 
                 <TouchableOpacity 
@@ -72,13 +72,14 @@ const More = () => {
                         오류 제보 및 기타 문의
                     </Text>
                 </TouchableOpacity>
-                <View>
-                    <Text>개발: 두둥, 하루</Text>
-                    <Text>자문: 엔야</Text>
-                    <Text>데이터 제공: 나나, 낙찌, 양갱수갱, 율, 쭒둥이, 태단, 호연</Text>
-                    <Text>도움: 비화, 승귄, 양갱수갱, 오뜨, 율, 치쥬, 햅</Text>
-                </View>
             </ScrollView>
+            <View>
+                <Text style={styles.credit}>Copyright ⓒ 두둥, 하루</Text>
+                <Text style={styles.credit}>Thanks to.</Text>
+                <Text style={styles.credit}>자문: 엔야</Text>
+                <Text style={styles.credit}>데이터 제공: 나나, 낙찌, 양갱수갱, 율, 쭒둥이, 태단, 호연</Text>
+                <Text style={styles.credit}>도움: 비화, 승귄, 양갱수갱, 오뜨, 율, 치쥬, 햅</Text>
+            </View>
         </View>
     )
 }

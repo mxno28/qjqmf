@@ -196,6 +196,9 @@ const styles = StyleSheet.create({
         borderBottomWidth:1,
         padding: 5, 
         lineHeight: 20
+    },
+    credit: {
+        color: '#444444'
     }
 });
 
