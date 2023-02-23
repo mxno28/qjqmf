@@ -81,16 +81,6 @@
         "hasMediaMeta": true
     },
 
-    "LHG": {
-        "code": "LHG",
-        "name": ".",
-        "profile": "https://raw.githubusercontent.com/dlrauddmlejrgn/BBMedia/main/profile/LHG_Profile.jpg",
-        "profileDownload": "https://drive.google.com/file/d/1hherkLpfxwZbdQfxlhjLG2stqUoQkE0V/view?usp=sharing",
-        "background": "",
-        "backgroundDownload": "",
-        "status": "",
-        "hasMediaMeta": false
-    },
 
     "SH": {
         "code": "SH",
