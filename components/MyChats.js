@@ -80,8 +80,13 @@ const MyChats = ({ navigation, route }) =>{
         fetch(result.uri).then(function(response) {
             response.text().then(function(text) {
                 let _nickname = text.match(/.*님/)[0];
-                setNewArtistNickname(_nickname.slice(0, _nickname.length-1).match(/[^\[].*[^\] ]/)[0]);
-
+                if (_nickname.length > 2){
+                    setNewArtistNickname(_nickname.slice(0, _nickname.length-1).match(/[^\[].*[^\] ]/)[0]);
+                }
+                else {
+                    setNewArtistNickname(_nickname.slice(0, _nickname.length-1));
+                }
+                
                 let tmp = text.split('\n');
                 let tmp2 = [];
                 for (let i = 0; i < tmp.length; i++){
