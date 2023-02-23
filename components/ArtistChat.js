@@ -37,7 +37,7 @@ const Message = ({content, media, userName}) => {
                 }, [])
                 
                 return (
-                    <TouchableOpacity onPress={async()=>{openBrowserAsync(media.download);}}>
+                    <TouchableOpacity onPress={async()=>{ await openBrowserAsync(media.download); }}>
                         <View style={{ marginRight:7}}>
                             <Image style={[{borderRadius: 15, borderTopLeftRadius: 0}, picStyle]}
                             source={{uri: media.url}} />
@@ -47,7 +47,7 @@ const Message = ({content, media, userName}) => {
                 
             case 'voice':
                 return (
-                    <TouchableOpacity onPress={async()=>{openBrowserAsync(media.download);}}>
+                    <TouchableOpacity onPress={async()=>{ await openBrowserAsync(media.download); }}>
                         <View style={{ marginRight:7 }}>
                             <View style={[{backgroundColor:'white', borderTopLeftRadius: 0, flexDirection: 'row', justifyContent: 'center'}, styles.text]}>
                                 <View  style={styles.voiceCircle}>
@@ -64,7 +64,7 @@ const Message = ({content, media, userName}) => {
                 }, [])
                 
                 return (
-                    <TouchableOpacity onPress={()=>{openBrowserAsync(media.download);}}>
+                    <TouchableOpacity onPress={async ()=>{ await openBrowserAsync(media.download); }}>
                         <View style={{ marginRight:7 }}>
                             <Image style={[{borderRadius: 15, borderTopLeftRadius: 0}, picStyle]}
                             source={{uri: media.thumbnail}}/>
