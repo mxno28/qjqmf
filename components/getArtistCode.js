@@ -1,7 +1,6 @@
 const getArtistCode = (name) => {
     switch (name) {
         // FTISLAND
-        
         case '.':
             console.log('Artist: 이홍기'); 
             return ('LHG'); 
