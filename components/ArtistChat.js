@@ -1,7 +1,8 @@
 import { Text, View, TouchableOpacity, Image } from 'react-native';
 import { useState, useEffect } from 'react';
 
-import { openURL } from 'expo-linking';
+import { openBrowserAsync } from 'expo-web-browser';
+//import { openURL } from 'expo-linking';
 import styles from './styles';
 
 const Message = ({content, media, userName}) => {
@@ -36,7 +37,7 @@ const Message = ({content, media, userName}) => {
                 }, [])
                 
                 return (
-                    <TouchableOpacity onPress={()=>{openURL(media.download);}}>
+                    <TouchableOpacity onPress={async()=>{openBrowserAsync(media.download);}}>
                         <View style={{ marginRight:7}}>
                             <Image style={[{borderRadius: 15, borderTopLeftRadius: 0}, picStyle]}
                             source={{uri: media.url}} />
@@ -46,7 +47,7 @@ const Message = ({content, media, userName}) => {
                 
             case 'voice':
                 return (
-                    <TouchableOpacity onPress={()=>{openURL(media.download);}}>
+                    <TouchableOpacity onPress={async()=>{openBrowserAsync(media.download);}}>
                         <View style={{ marginRight:7 }}>
                             <View style={[{backgroundColor:'white', borderTopLeftRadius: 0, flexDirection: 'row', justifyContent: 'center'}, styles.text]}>
                                 <View  style={styles.voiceCircle}>
@@ -63,7 +64,7 @@ const Message = ({content, media, userName}) => {
                 }, [])
                 
                 return (
-                    <TouchableOpacity onPress={()=>{openURL(media.download);}}>
+                    <TouchableOpacity onPress={()=>{openBrowserAsync(media.download);}}>
                         <View style={{ marginRight:7 }}>
                             <Image style={[{borderRadius: 15, borderTopLeftRadius: 0}, picStyle]}
                             source={{uri: media.thumbnail}}/>
