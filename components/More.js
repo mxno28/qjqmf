@@ -1,5 +1,5 @@
-import { Text, View, Modal, ScrollView, TouchableOpacity } from 'react-native';
-import { useState, useEffect } from 'react';
+import { Text, View, Modal, FlatList, TouchableOpacity } from 'react-native';
+import { useState } from 'react';
 
 import { openURL } from 'expo-linking';
 
@@ -7,8 +7,45 @@ import { openURL } from 'expo-linking';
 import styles from './styles';
 import removeData from './removeData';
 
-const More = () => {
+const More = ({navigation}) => {
     const [delVisible, setDelVisible] = useState(false);
+
+    
+    const data = [
+        {
+            'title': '📢 공지사항',
+            'onPress': ()=>{navigation.navigate('Notice');}
+        },
+        /*{
+            'title': 'ℹ️ 사용법',
+            'onPress': ()=>{navigation.navigate('Manual');}
+        },
+        {
+            'title': '❓ FAQ',
+            'onPress': ()=>{}
+        },*/
+        {
+            'title': '🗑️ 내 채팅 삭제',
+            'onPress': ()=>{setDelVisible(!delVisible);}
+        },
+        {
+            'title': '✉️ 오류 제보 및 기타 문의',
+            'onPress': ()=>{openURL('mailto: dlrauddmlejrgn@gmail.com')}
+        }
+    ];
+
+    const renderItem = ({item}) => {
+        return (
+            <TouchableOpacity 
+                onPress={item.onPress}
+                style={styles.moreItem}
+            >
+                <Text style={{fontSize: 16}}>
+                    {item.title}
+                </Text>
+            </TouchableOpacity>
+        );
+    }
 
     return (
         <View style={{flex:1}}>
@@ -52,27 +89,11 @@ const More = () => {
                     </View>
                 </View>
             </Modal>
-            <View
+            <FlatList
+                data={data}
+                renderItem={renderItem}
                 style={{padding: 20, flex:1}}
-            >
-                
-                <TouchableOpacity 
-                    onPress={()=>{setDelVisible(!delVisible);}}
-                    style={styles.moreItem}
-                >
-                    <Text style={{fontSize: 16}}>
-                        내 채팅 삭제
-                    </Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                    onPress={()=>{openURL('mailto: dlrauddmlejrgn@gmail.com')}}
-                    style={styles.moreItem}
-                >
-                    <Text style={{fontSize: 16}}>
-                        오류 제보 및 기타 문의
-                    </Text>
-                </TouchableOpacity>
-            </View>
+            />
             <View style={{padding: 20}}>
                 <Text style={styles.credit}>Copyright ⓒ 2023 두둥!!, 하루</Text>
                 <Text style={styles.credit}>Thanks to.</Text>

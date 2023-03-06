@@ -199,6 +199,25 @@ const styles = StyleSheet.create({
     },
     credit: {
         color: '#444444'
+    },
+    numbered: {
+        flexDirection: 'row',
+        justifyContent: 'flex-start',
+        alignItems: 'center'
+    },
+    number: {
+        fontSize: 16, 
+        width: 20, 
+        borderColor: 'lightgrey', 
+        borderRightWidth: 0.5, 
+        marginRight: 10
+    },
+    detail: {
+        padding: 15
+    },
+    opened: {
+        borderColor: '#e54132', 
+        borderWidth: 2
     }
 });
 

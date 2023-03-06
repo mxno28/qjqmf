@@ -55,6 +55,12 @@ export default function App() {
             presentation: 'modal' 
           }}
         />
+        <Stack.Screen name='Notice'
+        getComponent={() => require('./components/Notice').default} 
+        />
+        <Stack.Screen name='Manual'
+        getComponent={() => require('./components/Manual').default} 
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

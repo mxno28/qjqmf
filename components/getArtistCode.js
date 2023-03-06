@@ -4,10 +4,10 @@ const getArtistCode = (name) => {
         case '.':
             console.log('Artist: 이홍기'); 
             return ('LHG'); 
-        /*
-        case '':
+        case '너와나의이재지니만만세☠️':
             console.log('Artist: 이재진'); 
             return ('LJJ'); 
+        /*
         case '':
             console.log('Artist: 최민환'); 
             return ('CMH'); 
