@@ -47,6 +47,10 @@ const getArtistCode = (name) => {
             return ('SH');
 
         //SF9
+        case '김구름☁️':
+            console.log('Artist: 김영빈');
+            return ('KYB');
+            
         case '❤️':
             console.log('Artist: 이재윤');
             return ('LJY');
