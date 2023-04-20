@@ -54,6 +54,10 @@ const getArtistCode = (name) => {
         case '❤️':
             console.log('Artist: 이재윤');
             return ('LJY');
+    
+        case '상혁':
+            console.log('Artist: 이다원');
+            return ('LDW');
 
         case '니꼬':
             console.log('Artist: 유태양');

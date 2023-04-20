@@ -134,6 +134,16 @@
         "status": "세상이 지치고 힘들때 클릭하세요",
         "hasMediaMeta": false
     },
+    "LDW": {
+        "code": "LDW",
+        "name": "상혁",
+        "profile": "https://raw.githubusercontent.com/dlrauddmlejrgn/BBMedia/main/profile/LDW_Profile.jpg",
+        "profileDownload": "https://drive.google.com/file/d/1SsCnzhZ2M1h5RU4NNO6MBCZ713doiXJ6/view?usp=sharing",
+        "background": "https://raw.githubusercontent.com/dlrauddmlejrgn/BBMedia/main/profile/LDW_Profile_Background.jpg",
+        "backgroundDownload": "https://drive.google.com/file/d/1jykVle0KU2y_zGksdfc02_V3SmKO5wNt/view?usp=share_link",
+        "status": "빙빙 돌아가는 회전목마처럼~🎠",
+        "hasMediaMeta": false
+    },
     "YTY": {
         "code": "YTY",
         "name": "니꼬",
